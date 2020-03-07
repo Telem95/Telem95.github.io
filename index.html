@@ -19,7 +19,7 @@
         }
 
         h1 {
-            font-size: 8em;
+            font-size: 9vw;
         }
 
         .strip {
@@ -32,11 +32,11 @@
         }
 
         .id_telem {
-            color: rgb(255,0,0);
+            color: rgb(222,36,46);
         }
 
         h2, h5 {
-            color: rgb(255,0,0);
+            color: rgb(222,36,46);
         }
     </style>
 </head>
@@ -45,22 +45,22 @@
 
     <div class="strip container-fluid text-white d-flex align-items-center">
         <div class="container d-flex text-center justify-content-center">
-            <div class="col-8">
-                <h1 class="title"><span class="id_telem">Telem</span> Tobi</h1>
-                <h4 class="font-weight-light">iOS Developer</h4>
+            <div class="col-10">
+                <h1><span class="id_telem">Telem</span> Tobi</h1>
+                <h4 class="font-weight-light" style="font-size: 2vw">iOS Developer</h4>
             </div>
         </div>
     </div>
 
-    <main class="container-fluid">
+    <main class="container-fluid bg-light">
         <div class="container justify-content-center py-5">
             <div class="text-center">
                 <h2 class="display-4 title">PORTFOLIO</h2>
             </div>
             <div class="row py-5 justify-content-between align-items-center">
-                <div class="col-lg-6 pb-4">
-                    <div class="row pl-2">
-                        <img src="images/icon1.png" alt="Circles icon" width="65">
+                <div class="col-md-6 pb-4 order-2 order-md-1">
+                    <div class="row pl-2 mt-4">
+                        <img src="images/circles_icon.png" alt="Circles icon" width="65" height="65">
                         <h3 class="px-3 pt-4">Circles</h3>
                     </div>
                     <div class="py-3">
@@ -73,11 +73,36 @@
                         <p class="font-weight-light">Swift, MapKit</p>
                     </div>
                     <div class="row px-1">
-                        <button class="btn btn-outline-danger mx-2">More screens</button>
+                        <a href="https://github.com/Telem95/Circles."><button class="btn btn-outline-danger mx-2 h-100" onclick="">More screens</button></a>
                         <a href="https://apps.apple.com/us/app/circles-map-based-communities/id1494102290?ls=1"><img class="mx-4" src="images/apple-store-button.png" alt="apple store button" width="130"></a>
                     </div>
                 </div>
-                <img class="col-lg-5" src="images/CirclesMocks.png" alt="screenshots">
+
+                <img class="col-md-5 order-1 order-md-2" src="images/circles_mocks.png" alt="Circles Screenshots">
+            </div>
+
+            <div class="row py-5 justify-content-between align-items-center">
+                <img class="col-md-5" src="images/county_city_mocks.png" alt="screenshots">
+
+                <div class="col-md-6 pb-4">
+                    <div class="row pl-2 mt-4">
+                        <img src="images/country_city_icon.png" alt="Country-City icon" width="65" height="65">
+                        <h3 class="px-3 pt-4">ארץ עיר</h3>
+                    </div>
+                    <div class="py-3">
+                        <p class="font-weight-light">       
+                            The well-known Israeli game as a mobile app.
+                            includes the options to play by yourself, or to find a match online. 
+                            Built everything from scratch, used Express.js for the server side.
+                        </p>
+                        <h5>Technologies used</h5>
+                        <p class="font-weight-light">Swift, Lottie animations, Socket.io, Google ads</p>
+                    </div>
+                    <div class="row px-1">
+                        <a href="#"><button class="btn btn-outline-danger mx-2 h-100" onclick="">More screens</button></a>
+                        <a href="https://apps.apple.com/us/app/%D7%90%D7%A8%D7%A5-%D7%A2%D7%99%D7%A8/id1501330526"><img class="mx-4" src="images/apple-store-button.png" alt="apple store button" width="130"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
