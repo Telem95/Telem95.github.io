@@ -38,3 +38,12 @@ body {
 h2, h5 {
     color: rgb(222,36,46);
 }
+
+.profileImage {
+    border-radius: 50%;
+}
+
+.aboutMe {
+    font-family: 'Raleway';
+    font-size: 20px;
+}
