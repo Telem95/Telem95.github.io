@@ -17,7 +17,7 @@ body {
 .portfolio {
     font-family: 'Raleway';
     color: black;
-    font-size: 5vh;
+    font-size: 2.5em;
     letter-spacing: 5px;
     font-weight: 200;
 }
@@ -47,3 +47,5 @@ h2, h5 {
     font-family: 'Raleway';
     font-size: 20px;
 }
+
+

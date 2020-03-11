@@ -10,5 +10,21 @@ function copyToClipboard(text) {
     document.execCommand("copy");
     document.body.removeChild(dummy);
 
-    alert("Email copied to clipboard")
+    // alert("Email copied to clipboard")
 }
+
+function myFunction() {
+    // var copyText = document.getElementById("myInput");
+    // copyText.select();
+    // copyText.setSelectionRange(0, 99999);
+    // document.execCommand("copy");
+    copyToClipboard("telem16@gmail.com")
+
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copied email";
+  }
+  
+  function outFunc() {
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copy to clipboard";
+  }
