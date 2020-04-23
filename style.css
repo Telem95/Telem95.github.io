@@ -19,7 +19,7 @@ body {
     color: black;
     font-size: 2.5em;
     letter-spacing: 5px;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 .strip {
@@ -47,5 +47,3 @@ h2, h5 {
     font-family: 'Raleway';
     font-size: 20px;
 }
-
-
